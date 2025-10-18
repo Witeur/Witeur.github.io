@@ -1,0 +1,57 @@
+/* le haut de page */
+body {
+    background-image: url(./3179878.jpg);
+    background-attachment: fixed;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.bandeau .bandeau_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid black;
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 30, 94);
+    padding: 6px;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+footer .bandeau {
+    justify-content: center;
+}
+
+.titre .titrep .titref .titreh .titres .titrepro .titrel .titrec {
+    font-family: Impact, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.contact a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact_bar a {
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.info {
+  margin-right: 15px;
+}

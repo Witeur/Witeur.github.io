@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CodingPedia</title>
+    <link rel="stylesheet" href="codingpedia.css">
+</head>
+
+<body>
+    <div class="content">
+        <header class="box">
+            <h1>Welcome to CodingPedia!</h1>
+            <nav class="box">
+                <ul class="nav-links">
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="php.html">Php</a></li>
+                    <li><a href="sql.html">Sql</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="horizontal">
+            <main class="box">
+                <div class="paper">
+                    <div class="moving_square"> </div>
+                </div>
+                <form action="/action_page.php" method="post">
+                    <label for="FirstName">First name:</label><br>
+                    <input type="text" id="FirstName" name="FirstName" required><br><br>
+
+                    <label for="LastName">Last name:</label><br>
+                    <input type="text" id="LastName" name="LastName" required><br><br>
+
+                    <label for="Email">Email:</label><br>
+                    <input type="email" id="Email" name="Email" required><br><br>
+
+                    <label for="Age">Age:</label><br>
+                    <input type="number" id="Age" name="Age" min="3" max="99"><br><br>
+
+                    <label for="Phone">Phone:</label><br>
+                    <input type="text" id="Phone" name="Phone" maxlength="10" pattern="\d{10}"
+                        title="10 chiffres requis"><br><br>
+
+                    <label>Sex:</label><br>
+                    <input type="radio" name="Genre" value="masculin" id="masculin" checked>
+                    <label for="masculin">Masculin</label>
+                    <input type="radio" name="Genre" value="femme" id="femme">
+                    <label for="femme">Femme</label><br><br>
+
+                    <label for="HairColor">Hair color:</label><br>
+                    <input type="color" id="HairColor" name="HairColor" value="#e66465"><br><br>
+
+                    <label for="Date">Date:</label><br>
+                    <input type="date" id="Date" name="Date" required><br><br>
+
+                    <label for="Technology">Technology:</label><br>
+                    <select name="Technology" id="Technology">
+                        <option value="HTML">HTML</option>
+                        <option value="PHP">PHP</option>
+                        <option value="SQL">SQL</option>
+                    </select><br><br>
+
+                    <label for="Question">Question:</label><br>
+                    <textarea id="Question" name="Question" rows="4" cols="50" required></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+
+               <p>
+        CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual which functions as a wiki.<br>
+        CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve.
+    </p>
+
+                <h3>
+                    I am Enzo BAVIGNE, I am 18 years old and I am a student at Epitech in Bachelor in IT.
+                </h3>
+            </main>
+
+            <div class="content">
+                <aside class="box">
+                    <p>
+                        Peace is a lie, there is only passion.<br>
+                        Through passion, I gain strength.<br>
+                        Through strength, I gain power.<br>
+                        Through power, I gain victory.<br>
+                        Through victory, my chains are broken.<br>
+                        The Force shall free me.<br>
+                        <cite>— Sith Code —</cite><br>
+                    </p>
+                </aside>
+            </div>
+        </div>
+
+        <footer class="box">
+            <address>
+                <a href="Name">Enzo</a><br />
+                <a href="first name">BAVIGNE</a><br />
+                <a href="address">592 Chemin Maunier</a><br />
+                <a href="phone number">0692440765</a><br />
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>

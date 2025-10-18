@@ -1,0 +1,75 @@
+.box {
+  border: 2px solid black;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.content {
+  background-color: gray;
+  padding: 20px;
+}
+
+.horizontal {
+  display: flex;
+  gap: 20px;
+}
+
+.horizontal main {
+  flex: 0 0 80%;
+}
+
+.horizontal aside {
+  flex: 0 0 20%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+}
+
+.paper {
+  width: 350px;
+  height: 350px;
+  background-color: rgb(0, 89, 255);
+  position: relative;
+  overflow: hidden;
+}
+
+.moving_square {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  animation: rectangle 4s linear 5;
+
+}
+
+@keyframes rectangle {
+  0% {
+    transform: translate(0, 0);
+    background-color: red;
+  }
+
+  25% {
+    transform: translate(0, 300px);
+    background-color: green;
+  }
+
+  50% {
+    transform: translate(300px, 300px);
+    background-color: blue;
+  }
+
+  75% {
+    transform: translate(300px, 0);
+    background-color: yellow;
+  }
+
+  100% {
+    transform: translate(0, 0);
+     background-color: red;
+  }
+}
