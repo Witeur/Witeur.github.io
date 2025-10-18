@@ -4,32 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <link rel="icon" href="portfolio.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
 </head>
 
 <body class="fondsite">
     <!-- Haut de page -->
-    <header>
-        <div class="bandeau">
-            <h1 class="titre">Bavigne Enzo</h1>
-            <h1 class="titre">Mon Portfolio</h1>
-            
+   <header class="bandeau">
+  <img src="logo.png" alt="Logo" class="logo">
+    <div class="header-left">
+    <h1 class="nom">Enzo Bavigne</h1>
+    <p class="sous-titre">Étudiant en Bachelor à Epitech</p>
+  </div>
+  <div class="header-right">
+    <h2 class="portfolio-titre">Portfolio</h2>
+  </div>
+</header>
 
-        </div>
-    </header>
+   <nav class="navbar contact_bar">
+    <ul>
+        <li><a href="#Présentation">Présentation</a></li>
+        <li><a href="#Formation">Formation</a></li>
+        <li><a href="#Hard-skills">Hard skills</a></li>
+        <li><a href="#Soft skills">Soft skills</a></li>
+        <li><a href="#Projets">Projets</a></li>
+        <li><a href="#Langues">Langues</a></li>
+        <li><a href="#Certifications">Certifications</a></li>
+    </ul>
+</nav>
 
-    <nav class="bandeau_nav contact_bar">
-        <ul>
-            <li><a href="#Présenation">⋅Présentation</a></li>
-            <li><a href="#Formation">⋅Formation</a></li>
-            <li><a href="#Hard skills">⋅Had skills</a></li>
-            <li><a href="#Soft skills">⋅Soft skills</a></li>
-            <li><a href="#Projets">⋅Projets</a></li>
-            <li><a href="#Langues">⋅Langues</a></li>
-            <li><a href="#Certifications">⋅Certifications</a></li>
-        </ul>
-    </nav>
     <!-- Contenu principal -->
 
     <!-- Ma présentation -->
@@ -37,23 +41,21 @@
     <div class="row-container">
         <div class="presentation_box">
             <div>
-                <section id="Présenation">
-                    <h1 class="titrep">Présentation</h1>
+                <section id="Présentation">
+                    <h2 class="titrep">Présentation</h2>
                 </section>
             </div>
             <img src="Enzo-2.jpg" alt="Photo de profil" class="photo_de_profil">
-            <h2 class="text">Je m'appelle Enzo BAVIGNE. Je suis passionné par les technologies et la
-                cybersécurité, je
-                souhaite poursuivre mes études dans le domaine du réseau et de la sécurité informatique.
-                Curieux, motivé
-                et rigoureux, j’aime apprendre et relever de nouveaux défis dans des projets techniques ou
-                collaboratifs.</h2>
+            <h2 class="text">Je m'appelle Enzo Bavigne, étudiant en Bachelor à Epitech. Passionné par les technologies
+                et la cybersécurité, je souhaite approfondir mes compétences dans le domaine du réseau et de la sécurité
+                informatique. Curieux, motivé et rigoureux, j’aime apprendre en expérimentant et relever de nouveaux
+                défis à travers des projets techniques et collaboratifs.</h2>
         </div>
 
         <!--Ma formation-->
         <div class="formations_box">
             <section id="Formation">
-                <h1 class="titref">Formations</h1>
+                <h2 class="titref">Formations</h2>
                 <div class="formation-links">
                     <div class="image_block">
                         <img src="bac stmg.webp" class="image_formation zoom-image">
@@ -70,8 +72,8 @@
 
         <!--Mon hard skills-->
         <div class="hard_box">
-            <section id="Hard skills"></section>
-            <h1 class="titreh">Hard skills</h1>
+            <section id="Hard-skills"></section>
+            <h2 class="titreh">Hard skills</h2>
             <div class="formation-links">
                 <div class="image_block">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Word_2013-2019_logo.svg/814px-Microsoft_Word_2013-2019_logo.svg.png"
@@ -110,7 +112,7 @@
         <!--mon soft skills-->
         <div class="soft_box">
             <section id="Soft skills"></section>
-            <h1 class="titres">Soft skills</h1>
+            <h2 class="titres">Soft skills</h2>
             <div class="formation-links">
                 <div class="image_block">
                     <img src="https://fiches-pratiques.chefdentreprise.com/wp-content/uploads/2025/09/Comment-entretenir-cohesion-equipe-distance-F.jpg"
@@ -134,11 +136,11 @@
         <!--mes projets-->
         <div class="proge_box">
             <section id="Projets"></section>
-            <h1 class="titrepro">Projets</h1>
+            <h2 class="titrepro">Projets</h2>
 
             <div class="formation-links">
                 <div class="image_block">
-                    <a href="/projet/task08/index.html">
+                    <a href="./projet/task08/index.html">
                         <img src="Screenshot from 2025-10-17 14-45-03.png" class="image_projet zoom-image"
                             alt="Projet Codingpedia">
                     </a>
@@ -148,8 +150,9 @@
 
             <div class="image_block">
 
-                <a href="/projet/task04/index.html">
-                    <img src="Screenshot from 2025-10-17 14-45-30.png" class="image_projet zoom-image" alt="Projet Responsive">
+                <a href="./projet/task04/index.html">
+                    <img src="Screenshot from 2025-10-17 14-45-30.png" class="image_projet zoom-image"
+                        alt="Projet Responsive">
                 </a>
                 <h2>Site qui s'adapte à la taille de l'écran<br>
                     (inspecter la page puis mettre le mode tablet et téléphone)
@@ -159,8 +162,9 @@
 
             <div class="image_block">
 
-                <a href="/projet/task10/pendu.py" download="pendu.py">
-                    <img src="Screenshot from 2025-10-17 14-47-39.png" class="image_projet zoom-image" alt="Jeu du pendu">
+                <a href="./projet/task10/pendu.py" download="pendu.py">
+                    <img src="Screenshot from 2025-10-17 14-47-39.png" class="image_projet zoom-image"
+                        alt="Jeu du pendu">
                 </a>
                 <h2>Jeu du pendu avec des mots anglais</h2>
             </div>
@@ -172,7 +176,7 @@
         <section id="Langues"></section>
         <div class="langue_box">
 
-            <h1 class="titrel">Langues</h1>
+            <h2 class="titrel">Langues</h2>
             <div class="formation-links">
                 <div class="image_block">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-250px-Flag_of_France.svg.png"
@@ -195,37 +199,40 @@
         <!--mes cetification-->
         <section id="Certifications"></section>
         <div class="certification_box">
-            <h1 class="titrec">Certifications</h1>
-           <div class="formation-links">
+            <h2 class="titrec">Certifications</h2>
+            <div class="formation-links">
                 <div class="image_block">
                     <a href="certification-pix-20250206.pdf">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pix_logo.svg/240px-Pix_logo.svg.png" class="image_formation zoom-image"
-                            alt="Projet Codingpedia">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pix_logo.svg/240px-Pix_logo.svg.png"
+                            class="image_formation zoom-image" alt="Projet Codingpedia">
                     </a>
-                </a>
-                <h2>Certification Pix</h2>
+                    </a>
+                    <h2>Certification Pix</h2>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Bas de page -->
-    <!-- Bas de page -->
-<footer>
-    <div class="bandeau">
-        <div class="contact">
-            <!-- Contact centré -->
-            <p class="titrec">Contact :</p>
+        <!-- Bas de page -->
+        <footer>
+            <div class="bandeau">
+                <div class="contact">
+                    <!-- Contact centré -->
+                    <p class="titrec">Contact :</p>
 
-            <!-- Icônes en ligne -->
-            <div class="formation-links">
-                <a href="tel:0692440765">📞</a>
-                <a href="mailto:enzobavigne@gmail.com">📧</a>
-                <a href="https://github.com/Witeur" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="icon">
-                </a>
+                    <!-- Icônes en ligne -->
+                    <div class="formation-links">
+                        <a href="tel:0692440765">📞</a>
+                        <a href="mailto:enzobavigne@gmail.com">📧</a>
+                        <a href="https://github.com/Witeur" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="icon">
+                        </a>
+                        <a href="https://linkedin.com/in/enzobavigne" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png" class="icon" alt="LinkedIn">
+                        </a>
+
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</footer>
-</body>
+        </footer>
+    </body>
 
 </html>

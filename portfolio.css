@@ -1,5 +1,6 @@
 body {
   background-image: url(./3179878.jpg);
+  font-family: 'Poppins', sans-serif;
 }
 
 .icon {
@@ -8,18 +9,85 @@ body {
   vertical-align: middle;
 }
 
-.bandeau,
-.bandeau_nav {
+.bandeau {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  border: solid black;
-  width: auto;
+  align-items: center;
+  background: linear-gradient(90deg, #0A6783, #22306E);
   color: white;
-  padding: 6px;
-  flex-wrap: wrap;
-  border-radius: 30px;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   margin-bottom: 30px;
+}
+
+.logo {
+  width: 150px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.nom {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.sous-titre {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #FFD700;
+  margin: 0;
+}
+
+.portfolio-titre {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #0A6783;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #FFD700;
+  transform: scale(1.1);
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+}
+
+.navbar a.active {
+  color: #FFD700;
+  border-bottom: 2px solid #FFD700;
 }
 
 .bandeau {
@@ -81,6 +149,7 @@ footer .bandeau {
   border: solid black;
   margin-bottom: 30px;
   padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
 
 .presentation_box,
