@@ -188,7 +188,7 @@ footer .bandeau {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0;
+  margin: 20px 130px;
   text-align: center;
 }
 
@@ -432,7 +432,7 @@ footer .bandeau {
 }
 
 .image_projet {
-  width: 335px;
+  width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 8px;
